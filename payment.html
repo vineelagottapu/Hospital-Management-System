@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="hospital.js"></script>
+    <header>
+      <nav class="navigation">
+        <h2>UNITY</h2>
+        <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Service.html">Service</a>
+          <a href="Doctor.html">Doctors</a> 
+          <a href="Gallery.html">Gallery</a>
+          <a href="Contact.html">Contact</a>
+          <a href="register.html">Login/register</a>
+          <a href="Appointment.html">Appointment</a>
+          <a href="payment.html">payment</a>
+      </nav>
+      </header>
+<style>
+body {background-image: url('m15.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;}
+</style>
+</head>
+<body>
+<div class="level">
+    <h2>Pay Here...</h2>
+</div>
+<div class="base">
+     <div class="form-box1">
+        <form  class="input-group1">
+<h2>payment form</h2>
+<h4>contact details</h4>
+          <label>User Name :</label> <input type="text" class="input-field1" placeholder="User name" onkeypress="return charactersOnly(event);"required><br><br>
+<label> Gender : </label><input type="radio" id="Gender" name="Gender" class="input-field1"value="Male"><font style="color: gray;">Male</font>
+                  <input type="radio" id="Gender" name="Gender" class="input-field1"value="Female"><font style="color: gray;">Female</font>
+                  <input type="radio" id="Gender" name="Gender" class="input-field1"value="Other"><font style="color: gray;">Other</font><br><br> 
+<label>DOB:</label>
+<input type="date"  class="input-field1" placeholder="DD/MM/YYYY"><br><br>
+<label>Email ID : </label><input type="email" class="input-field1"  name="email" placeholder="Enter your email..."><br><br> 
+<label >Address : </label>
+           <input type="text" class="input-field1" id="address" placeholder="enter your adress"><br><br>
+          <label> pincode:</label> <input type="tel" class="input-field1" placeholder="Enter pincode">
+<hr>
+<h4>payment details</h4>
+<label>card type:</label>
+<select name="card type" id="card type">
+<option value="card type">select your card type</option>
+<option value="visa">visa</option>
+<option value="rupay">rupay</option>
+<option value="master card">master card</option>
+</select><br><br>
+<label> card number:</label> <input type="tel" class="input-field1" placeholder="Enter card number"><br><br>
+<label> cvv:</label> <input type="tel" class="input-field1" placeholder="Enter cvv"><br><br>
+<label>expiration date:</label><input type="date" class="input-field1"><br><br>
+<button type="submit" class="submit-btn1">paynow</button> 
+</div>
+
+                </form>  
+</div>
+</div>
+<footer>
+        <div class="footer">
+          <h4>UNITY</h4>
+        <p>DocPulse Technologies, 91080 WORKSPACE (JPN),<br>
+          # 951, 24th Main Road, Marenahalli, 2nd Phase,<br>
+          J. P. Nagar, Hyderebad 560078<br><br>
+          <img src="mail.png">&nbsp;contactus@docpulse.com<br><br>
+          Support Team<br><br>
+          <img src="phone">&nbsp;08046837034<br><br>
+          Sales Team<br><br>
+          <img src="phone">&nbsp;08069484993<br><br>          
+          <a href="About.html"><font style color="white">About Us</font></a><br>
+          Privacy Policy<br></p>
+        </div>
+        <div class="footer">
+          <h4> PRODUCTS</h4>
+         <p> IVR Appointment Booking Software<br>
+          OP Billing<br>
+          Electronic Health Record<br>
+          Lab<br>
+          Pharmacy</p>
+          <div class="foot">
+            <p> &copy;UNITY - All Right Reserved.</p>
+          </div>
+        </div>
+       <div class="footer">
+        <h4>SOLUTIONS</h4>
+        <p>
+          Clinic<br>
+          Medical Centers<br>
+          Hospitals<br>
+          </p>
+       </div>
+    
+      </footer>
+</body>
+</html>

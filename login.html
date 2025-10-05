@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="hospital.js"></script>
+    <header>
+      <nav class="navigation">
+        <h2>UNITY</h2>
+        <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Service.html">Service</a>
+          <a href="Doctor.html">Doctors</a> 
+          <a href="Contact.html">Contact</a>
+<a href="login.html">login</a>
+          <a href="register.html">register</a>
+          <a href="Appointment.html">Appointment</a>
+          <a href="FAQ.html">FAQ</a>
+      </nav>
+      </header>
+</head>
+<body>
+  <div class="Login1">
+    <h2>Login Here...</h2>
+</div>
+     <div class="hero">
+      <div class="form-box">
+        <form id="login"  class="input-group">
+          <label>User Name :</label> <input type="text" class="input-field" placeholder="User name" onkeypress="return charactersOnly(event);" required><br><br>
+          <label>Password :</label> <input type="password" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="chech-box"><span>Remember Password</span>
+          <button type="submit" class="submit-btn">Log In</button>
+          <br>Don't have an Register? Please Register first.
+<a href="register.html"><button class="btn">sign up</button></a>
+                </form>
+</div>
+  <footer>
+        <div class="footer">
+          <h4>WORLD VISION CLINIC</h4>
+        <p>DocPulse Technologies, 91080 WORKSPACE (JPN),<br>
+          # 951, 24th Main Road, Marenahalli, 2nd Phase,<br>
+          J. P. Nagar, Bengaluru, Karnataka 560078<br><br>
+          <img src="mail.png">&nbsp;contactus@docpulse.com<br><br>
+          Support Team<br><br>
+          <img src="phone">&nbsp;08046837034<br><br>
+          Sales Team<br><br>
+          <img src="phone">&nbsp;08069484993<br><br>          
+          <a href="About.html"><font style color="white">About Us</font></a><br>
+          Privacy Policy<br></p>
+        </div>
+        <div class="footer">
+          <h4> PRODUCTS</h4>
+         <p> IVR Appointment Booking Software<br>
+          OP Billing<br>
+          Electronic Health Record<br>
+          Lab<br>
+          Pharmacy</p>
+          <div class="foot">
+            <p>&copy; WORLD VISION CLINIC - All Right Reserved.</p>
+          </div>
+        </div>
+       <div class="footer">
+        <h4>SOLUTIONS</h4>
+        <p>
+          Clinic<br>
+          Medical Centers<br>
+          Hospitals<br>
+          Clinic Chains<br>
+          FAQ</p>
+       </div>
+  
+      </footer>
+<script>
+        var x= document.getElementById("login");
+var z= document.getElementById("btn");
+function login(){
+    x.style.left="50px";
+    z.style.left="0px";
+}
+      </script>
+</body>
+</html>
